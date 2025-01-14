@@ -8,6 +8,7 @@ html {
     border-radius: 40px;
     width: 20rem;
     overflow: hidden;
+    display: inline-block;
 
 }
 .gallery--item_title {
@@ -20,12 +21,15 @@ html {
 
 }
 .gallery {
-    list-style: none;
+   /* list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;*/
+    
+   /* display: inline-block;*/
+
 }
 
-img {
+.gallery--item_image {
     display: block;
 }
